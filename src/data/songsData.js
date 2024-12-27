@@ -1,0 +1,123 @@
+export const albums = [
+    {
+      id: 1,
+      name: "Rock Classics",
+      description: "Best rock songs of the decade",
+      image: "./src/assets/music-images/pushpa.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Bohemian Rhapsody",
+          artist: "Queen",
+          src: "./src/assets/music/song-1.mp3",
+          image: "./src/assets/music-images/pushpa.jpg",
+          category: "Top Songs", 
+        },
+        {
+          id: 2,
+          title: "Hotel California",
+          artist: "Eagles",
+          src: "./src/assets/music/song-1.mp3",
+          image: "./src/assets/music-images/pushpa.jpg",
+          category: "Newly Released", 
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Pop Hits",
+      description: "Top pop songs",
+      image: "./src/assets/music-images/hq720.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Shape of You",
+          artist: "Ed Sheeran",
+          src: "./src/assets/music/song-2.mp3",
+          image: "./src/assets/music-images/hq720.jpg",
+          category: "Top Songs", 
+        },
+        {
+          id: 2,
+          title: "Blinding Lights",
+          artist: "The Weeknd",
+          src: "./src/assets/music/song-2.mp3",
+          image: "./src/assets/music-images/hq720.jpg",
+          category: "Newly Released", 
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Telugu Hits",
+      description: "Top Telugu songs",
+      image: "./src/assets/music-images/msmp.jpeg",
+      songs: [
+        {
+          id: 1,
+          title: "Butta Bomma",
+          artist: "Armaan Malik",
+          src: "./src/assets/music/song-3.mp3",
+          image: "./src/assets/music-images/msmp.jpeg",
+          category: "Telugu Songs", 
+        },
+        {
+          id: 2,
+          title: "Samajavaragamana",
+          artist: "Sid Sriram",
+          src: "./src/assets/music/song-3.mp3",
+          image: "./src/assets/music-images/msmp.jpeg",
+          category: "Telugu Songs", 
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Bollywood Beats",
+      description: "Latest Hindi songs",
+      image: "./src/assets/music-images/thumb.jpeg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-4.mp3",
+          image: "./src/assets/music-images/thumb.jpeg",
+          category: "Hindi Songs", 
+        },
+        {
+          id: 2,
+          title: "Apna Bana Le",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-4.mp3",
+          image: "./src/assets/music-images/thumb.jpeg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+        id: 5,
+        name: "Bollywood Beats",
+        description: "Latest Hindi songs",
+        image: "./src/assets/music-images/devara.jpg",
+        songs: [
+          {
+            id: 1,
+            title: "Kesariya",
+            artist: "Arijit Singh",
+            src: "./src/assets/music/song-5.mp3",
+            image: "./src/assets/music-images/devara.jpg",
+            category: "Hindi Songs", 
+          },
+          {
+            id: 2,
+            title: "Apna Bana Le",
+            artist: "Arijit Singh",
+            src: "./src/assets/music/song-5.mp3",
+            image: "./src/assets/music-images/devara.jpg",
+            category: "Hindi Songs", 
+          },
+        ],
+      },
+  ];
+  
